@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* task 1 */
+.task-1> .navbar{
+    background-color: #0c220c;
+    /* width: 100%;
+    height: 40px; */
+    padding: 20px;
+    color: rgb(255, 249, 249);
+    display: flex;
+    gap: 200px;
+    font-size: large;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.dropbox{
+    color: white;
+    border: none;
+    background-color: #0c270c;
+    font-size: large;
+}
+.task-1 .searchicon>i{
+    position: absolute;
+    right: 10px;
+    top: 3px;
+    display: flex;
+    color: white;
+    padding: 20px;
+    font-size: large;
+}
+/* task 2 */
+.task-2> .navbar2{
+    background-color: rgb(74, 25, 74);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: large;
+}
+/* task 3 */
+.task-3 svg{
+    color: white;
+    font-size: small;
+}
+.task-3{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: smaller;
+    text-align: center;
+}
+.drop{
+    color: white;
+    border: none;
+    background-color: black;
+    font-size: small;
+}
+.main>.green{
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    width: 400px;
+    /* display: flex;
+    justify-content: space-evenly; */
+    padding: 10px;
+    border-radius: 3px;
+    display: inline-block;
+}
+.main .red{
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    width: 400px;
+    padding: 10px;
+    border-radius: 3px;
+    /* display: flex;
+    justify-content: space-evenly; */
+    margin-left: -10px;
+    display: inline-block;
+}
+i{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/* task 4 */
+.image-con{
+    width: 100%;
+    position: relative;
+
+}
+.image-con span{
+    font-size: xx-large;
+    text-align: center;
+    display: flex;
+}
+.image-con .one1{
+    color: white;
+    position: absolute;
+    top: 400px;
+    left: 550px;
+    font-size: 60px;
+}
+.image-con .one2{
+    color: white;
+    position: absolute;
+    top: 500px;
+    left: 715px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+}
+.image-con .hr{
+    width: 100px;
+    position: absolute;
+    top: 470px;
+    left: 650px;
+}
+.image-con .logo{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: whitesmoke;
+    font-size: x-large;
+}
+.image-con .link{
+    position: absolute;
+    left: 20px;
+    bottom: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
